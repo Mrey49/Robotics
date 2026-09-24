@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (11.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1
+-- Install configuration: ""
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/.gitkeep
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/spawn_robot.launch.py
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/world.launch.py
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/check_urdf.launch.py
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds/empty.sdf
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds/world.sdf
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz/rviz.rviz
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz/urdf.rviz
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/mogi_bot.urdf
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/materials.xacro
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/mogi_bot.gazebo
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.STEP
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.STL
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.SLDPRT
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mecanum_wheel_left.STL
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.blend
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.dae
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.STEP
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.dae
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.blend
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mecanum_wheel_right.STL
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.STL
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.SLDPRT
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/package_run_dependencies/erc_sor_ros_session1
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/parent_prefix_path/erc_sor_ros_session1
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/ament_prefix_path.sh
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/ament_prefix_path.dsv
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/path.sh
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/path.dsv
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.bash
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.sh
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.zsh
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.dsv
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/package.dsv
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/packages/erc_sor_ros_session1
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/cmake/erc_sor_ros_session1Config.cmake
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/cmake/erc_sor_ros_session1Config-version.cmake
+-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/package.xml

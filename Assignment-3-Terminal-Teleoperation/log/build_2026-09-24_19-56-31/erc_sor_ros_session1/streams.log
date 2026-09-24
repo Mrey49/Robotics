@@ -1,0 +1,67 @@
+[0.106s] Invoking command in '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy /usr/bin/cmake /home/mrey49/sor_ws/src/sor-ros-session1/erc_sor_ros_session1 -DCMAKE_INSTALL_PREFIX=/home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1
+[1.458s] -- The C compiler identification is GNU 13.3.0
+[4.341s] -- The CXX compiler identification is GNU 13.3.0
+[6.896s] -- Detecting C compiler ABI info
+[8.136s] -- Detecting C compiler ABI info - done
+[8.184s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.241s] -- Detecting C compile features
+[8.245s] -- Detecting C compile features - done
+[8.646s] -- Detecting CXX compiler ABI info
+[9.610s] -- Detecting CXX compiler ABI info - done
+[9.643s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.644s] -- Detecting CXX compile features
+[9.646s] -- Detecting CXX compile features - done
+[9.869s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[10.693s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.738s] -- Configuring done (11.3s)
+[11.773s] -- Generating done (0.0s)
+[11.783s] -- Build files have been written to: /home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1
+[11.811s] Invoked command in '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy /usr/bin/cmake /home/mrey49/sor_ws/src/sor-ros-session1/erc_sor_ros_session1 -DCMAKE_INSTALL_PREFIX=/home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1
+[11.817s] Invoking command in '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy /usr/bin/cmake --build /home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1 -- -j8 -l8
+[12.001s] Invoked command in '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy /usr/bin/cmake --build /home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1 -- -j8 -l8
+[12.046s] Invoking command in '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy /usr/bin/cmake --install /home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1
+[12.079s] -- Install configuration: ""
+[12.079s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch
+[12.088s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/.gitkeep
+[12.089s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/spawn_robot.launch.py
+[12.091s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/world.launch.py
+[12.092s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/check_urdf.launch.py
+[12.094s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds
+[12.097s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds/empty.sdf
+[12.098s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds/world.sdf
+[12.099s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz
+[12.102s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz/rviz.rviz
+[12.103s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz/urdf.rviz
+[12.104s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf
+[12.108s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/mogi_bot.urdf
+[12.108s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/materials.xacro
+[12.109s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/mogi_bot.gazebo
+[12.110s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes
+[12.113s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.STEP
+[12.114s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.STL
+[12.116s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.SLDPRT
+[12.118s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mecanum_wheel_left.STL
+[12.123s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.blend
+[12.129s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.dae
+[12.132s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.STEP
+[12.136s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.dae
+[12.136s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.blend
+[12.142s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mecanum_wheel_right.STL
+[12.150s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.STL
+[12.156s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.SLDPRT
+[12.164s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/package_run_dependencies/erc_sor_ros_session1
+[12.166s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/parent_prefix_path/erc_sor_ros_session1
+[12.170s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/ament_prefix_path.sh
+[12.171s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/ament_prefix_path.dsv
+[12.172s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/path.sh
+[12.173s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/path.dsv
+[12.174s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.bash
+[12.176s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.sh
+[12.177s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.zsh
+[12.180s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.dsv
+[12.181s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/package.dsv
+[12.184s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/packages/erc_sor_ros_session1
+[12.187s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/cmake/erc_sor_ros_session1Config.cmake
+[12.188s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/cmake/erc_sor_ros_session1Config-version.cmake
+[12.189s] -- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/package.xml
+[12.197s] Invoked command in '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy /usr/bin/cmake --install /home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1

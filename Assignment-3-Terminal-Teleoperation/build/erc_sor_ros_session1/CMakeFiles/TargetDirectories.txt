@@ -1,0 +1,9 @@
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/uninstall.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/erc_sor_ros_session1_uninstall.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/test.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/edit_cache.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/rebuild_cache.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/list_install_components.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/install.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/install/local.dir
+/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1/CMakeFiles/install/strip.dir

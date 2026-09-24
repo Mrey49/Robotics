@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.001479] (erc_sor_ros_session1) JobQueued: {'identifier': 'erc_sor_ros_session1', 'dependencies': OrderedDict()}
+[0.002833] (erc_sor_ros_session1) JobStarted: {'identifier': 'erc_sor_ros_session1'}
+[0.075896] (erc_sor_ros_session1) JobProgress: {'identifier': 'erc_sor_ros_session1', 'progress': 'cmake'}
+[0.087648] (erc_sor_ros_session1) Command: {'cmd': ['/usr/bin/cmake', '/home/mrey49/sor_ws/src/sor-ros-session1/erc_sor_ros_session1', '-DCMAKE_INSTALL_PREFIX=/home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1'], 'cwd': '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/mrey49/gazebo_models:/home/mrey49/sor_ws/src/sensors_and_perception/gazebo_models', 'USER': 'mrey49', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/mrey49', 'OLDPWD': '/home/mrey49/sor_ws/src/sor-ros-session1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mrey49/25b3976_Sor_Project/install:/home/mrey49/sor_ws/install:/home/mrey49/Robotics-Test/Assignment-3-RViz/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mrey49', 'NAME': 'REYANSHSAI3026LAPTOP', 'WSL_INTEROP': '/run/WSL/8700_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/msys64/ucrt64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/omsairam/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/omsairam/AppData/Local/Programs/Python/Python312/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/omsairam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/omsairam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/omsairam/AppData/Local/Python/bin:/mnt/c/Users/omsairam/AppData/Roaming/npm:/mnt/c/Users/omsairam/Downloads/modelsim_ase/win32aloem:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/snap/bin', 'WT_SESSION': '3f77e21c-9009-461f-b008-599941582d0d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_sor_ros_session1:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/sor_ws/install/erc_gazebo_sensors:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/erc_gazebo_sensors:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrey49/25b3976_Sor_Project/install/follower/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/trajectory_server:/home/mrey49/sor_ws/install/trajectory_server/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/my_robot:/home/mrey49/sor_ws/install/my_robot/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/erc_gazebo_sensors_py:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mrey49/sor_ws/install/erc_sor_ros_session1:/home/mrey49/sor_ws/install/erc_gazebo_sensors:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/erc_gazebo_sensors:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.109622] (-) TimerEvent: {}
+[0.210485] (-) TimerEvent: {}
+[0.311245] (-) TimerEvent: {}
+[0.412280] (-) TimerEvent: {}
+[0.513320] (-) TimerEvent: {}
+[0.614203] (-) TimerEvent: {}
+[0.715343] (-) TimerEvent: {}
+[0.816449] (-) TimerEvent: {}
+[0.917151] (-) TimerEvent: {}
+[1.017786] (-) TimerEvent: {}
+[1.118609] (-) TimerEvent: {}
+[1.219453] (-) TimerEvent: {}
+[1.320626] (-) TimerEvent: {}
+[1.421806] (-) TimerEvent: {}
+[1.460230] (erc_sor_ros_session1) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.522073] (-) TimerEvent: {}
+[1.622921] (-) TimerEvent: {}
+[1.723807] (-) TimerEvent: {}
+[1.824715] (-) TimerEvent: {}
+[1.925780] (-) TimerEvent: {}
+[2.027143] (-) TimerEvent: {}
+[2.128262] (-) TimerEvent: {}
+[2.229454] (-) TimerEvent: {}
+[2.330712] (-) TimerEvent: {}
+[2.431935] (-) TimerEvent: {}
+[2.533178] (-) TimerEvent: {}
+[2.634510] (-) TimerEvent: {}
+[2.735705] (-) TimerEvent: {}
+[2.836803] (-) TimerEvent: {}
+[2.937572] (-) TimerEvent: {}
+[3.038764] (-) TimerEvent: {}
+[3.139764] (-) TimerEvent: {}
+[3.240870] (-) TimerEvent: {}
+[3.342077] (-) TimerEvent: {}
+[3.442829] (-) TimerEvent: {}
+[3.543880] (-) TimerEvent: {}
+[3.645008] (-) TimerEvent: {}
+[3.746203] (-) TimerEvent: {}
+[3.847401] (-) TimerEvent: {}
+[3.948733] (-) TimerEvent: {}
+[4.050013] (-) TimerEvent: {}
+[4.151219] (-) TimerEvent: {}
+[4.252518] (-) TimerEvent: {}
+[4.342892] (erc_sor_ros_session1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.352844] (-) TimerEvent: {}
+[4.453608] (-) TimerEvent: {}
+[4.554752] (-) TimerEvent: {}
+[4.655859] (-) TimerEvent: {}
+[4.757249] (-) TimerEvent: {}
+[4.858279] (-) TimerEvent: {}
+[4.959141] (-) TimerEvent: {}
+[5.060251] (-) TimerEvent: {}
+[5.160984] (-) TimerEvent: {}
+[5.261718] (-) TimerEvent: {}
+[5.362633] (-) TimerEvent: {}
+[5.463373] (-) TimerEvent: {}
+[5.564182] (-) TimerEvent: {}
+[5.665000] (-) TimerEvent: {}
+[5.765758] (-) TimerEvent: {}
+[5.866889] (-) TimerEvent: {}
+[5.967616] (-) TimerEvent: {}
+[6.068335] (-) TimerEvent: {}
+[6.169212] (-) TimerEvent: {}
+[6.270094] (-) TimerEvent: {}
+[6.371270] (-) TimerEvent: {}
+[6.472147] (-) TimerEvent: {}
+[6.573023] (-) TimerEvent: {}
+[6.673795] (-) TimerEvent: {}
+[6.775053] (-) TimerEvent: {}
+[6.875895] (-) TimerEvent: {}
+[6.898317] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.976237] (-) TimerEvent: {}
+[7.077069] (-) TimerEvent: {}
+[7.178294] (-) TimerEvent: {}
+[7.279108] (-) TimerEvent: {}
+[7.379965] (-) TimerEvent: {}
+[7.481151] (-) TimerEvent: {}
+[7.582190] (-) TimerEvent: {}
+[7.683235] (-) TimerEvent: {}
+[7.784254] (-) TimerEvent: {}
+[7.885254] (-) TimerEvent: {}
+[7.986154] (-) TimerEvent: {}
+[8.086992] (-) TimerEvent: {}
+[8.138913] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.186876] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.187320] (-) TimerEvent: {}
+[8.243780] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.247830] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.287723] (-) TimerEvent: {}
+[8.388739] (-) TimerEvent: {}
+[8.489507] (-) TimerEvent: {}
+[8.591093] (-) TimerEvent: {}
+[8.648578] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.691365] (-) TimerEvent: {}
+[8.792090] (-) TimerEvent: {}
+[8.892832] (-) TimerEvent: {}
+[8.993736] (-) TimerEvent: {}
+[9.094528] (-) TimerEvent: {}
+[9.195253] (-) TimerEvent: {}
+[9.296154] (-) TimerEvent: {}
+[9.397156] (-) TimerEvent: {}
+[9.498393] (-) TimerEvent: {}
+[9.599060] (-) TimerEvent: {}
+[9.612291] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.645569] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.646706] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.648310] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.699335] (-) TimerEvent: {}
+[9.800260] (-) TimerEvent: {}
+[9.871174] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[9.900663] (-) TimerEvent: {}
+[10.002003] (-) TimerEvent: {}
+[10.102629] (-) TimerEvent: {}
+[10.203253] (-) TimerEvent: {}
+[10.303942] (-) TimerEvent: {}
+[10.404808] (-) TimerEvent: {}
+[10.505767] (-) TimerEvent: {}
+[10.606624] (-) TimerEvent: {}
+[10.695335] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[10.706918] (-) TimerEvent: {}
+[10.808017] (-) TimerEvent: {}
+[10.909020] (-) TimerEvent: {}
+[11.010379] (-) TimerEvent: {}
+[11.111242] (-) TimerEvent: {}
+[11.212623] (-) TimerEvent: {}
+[11.314029] (-) TimerEvent: {}
+[11.414770] (-) TimerEvent: {}
+[11.515891] (-) TimerEvent: {}
+[11.616814] (-) TimerEvent: {}
+[11.717520] (-) TimerEvent: {}
+[11.740376] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Configuring done (11.3s)\n'}
+[11.775321] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[11.785340] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Build files have been written to: /home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1\n'}
+[11.812694] (erc_sor_ros_session1) CommandEnded: {'returncode': 0}
+[11.815206] (erc_sor_ros_session1) JobProgress: {'identifier': 'erc_sor_ros_session1', 'progress': 'build'}
+[11.819411] (erc_sor_ros_session1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1', '--', '-j8', '-l8'], 'cwd': '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/mrey49/gazebo_models:/home/mrey49/sor_ws/src/sensors_and_perception/gazebo_models', 'USER': 'mrey49', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/mrey49', 'OLDPWD': '/home/mrey49/sor_ws/src/sor-ros-session1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mrey49/25b3976_Sor_Project/install:/home/mrey49/sor_ws/install:/home/mrey49/Robotics-Test/Assignment-3-RViz/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mrey49', 'NAME': 'REYANSHSAI3026LAPTOP', 'WSL_INTEROP': '/run/WSL/8700_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/msys64/ucrt64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/omsairam/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/omsairam/AppData/Local/Programs/Python/Python312/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/omsairam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/omsairam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/omsairam/AppData/Local/Python/bin:/mnt/c/Users/omsairam/AppData/Roaming/npm:/mnt/c/Users/omsairam/Downloads/modelsim_ase/win32aloem:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/snap/bin', 'WT_SESSION': '3f77e21c-9009-461f-b008-599941582d0d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_sor_ros_session1:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/sor_ws/install/erc_gazebo_sensors:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/erc_gazebo_sensors:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrey49/25b3976_Sor_Project/install/follower/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/trajectory_server:/home/mrey49/sor_ws/install/trajectory_server/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/my_robot:/home/mrey49/sor_ws/install/my_robot/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/erc_gazebo_sensors_py:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mrey49/sor_ws/install/erc_sor_ros_session1:/home/mrey49/sor_ws/install/erc_gazebo_sensors:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/erc_gazebo_sensors:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[11.820637] (-) TimerEvent: {}
+[11.922356] (-) TimerEvent: {}
+[12.002976] (erc_sor_ros_session1) CommandEnded: {'returncode': 0}
+[12.005732] (erc_sor_ros_session1) JobProgress: {'identifier': 'erc_sor_ros_session1', 'progress': 'install'}
+[12.022782] (-) TimerEvent: {}
+[12.048252] (erc_sor_ros_session1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1'], 'cwd': '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/mrey49/gazebo_models:/home/mrey49/sor_ws/src/sensors_and_perception/gazebo_models', 'USER': 'mrey49', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/mrey49', 'OLDPWD': '/home/mrey49/sor_ws/src/sor-ros-session1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mrey49/25b3976_Sor_Project/install:/home/mrey49/sor_ws/install:/home/mrey49/Robotics-Test/Assignment-3-RViz/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mrey49', 'NAME': 'REYANSHSAI3026LAPTOP', 'WSL_INTEROP': '/run/WSL/8700_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ProgramData/Oracle/Java/javapath:/mnt/c/msys64/ucrt64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2026a/bin:/mnt/c/Users/omsairam/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/omsairam/AppData/Local/Programs/Python/Python312/:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/omsairam/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/omsairam/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/omsairam/AppData/Local/Python/bin:/mnt/c/Users/omsairam/AppData/Roaming/npm:/mnt/c/Users/omsairam/Downloads/modelsim_ase/win32aloem:/mnt/c/intelFPGA/18.1/modelsim_ase/win32aloem:/snap/bin', 'WT_SESSION': '3f77e21c-9009-461f-b008-599941582d0d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_sor_ros_session1:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/sor_ws/install/erc_gazebo_sensors:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/erc_gazebo_sensors:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mrey49/sor_ws/src/sor-ros-session1/build/erc_sor_ros_session1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mrey49/25b3976_Sor_Project/install/follower/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/trajectory_server:/home/mrey49/sor_ws/install/trajectory_server/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/my_robot:/home/mrey49/sor_ws/install/my_robot/lib/python3.12/site-packages:/home/mrey49/sor_ws/build/erc_gazebo_sensors_py:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py/lib/python3.12/site-packages:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/mrey49/sor_ws/install/erc_sor_ros_session1:/home/mrey49/sor_ws/install/erc_gazebo_sensors:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/erc_gazebo_sensors:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mrey49/25b3976_Sor_Project/install/follower:/home/mrey49/sor_ws/install/trajectory_server:/home/mrey49/sor_ws/install/my_robot:/home/mrey49/sor_ws/install/erc_gazebo_sensors_py:/home/mrey49/Robotics-Test/Assignment-3-RViz/install/trajectory_server:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[12.080946] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.081582] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch\n'}
+[12.090822] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/.gitkeep\n'}
+[12.092000] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/spawn_robot.launch.py\n'}
+[12.093337] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/world.launch.py\n'}
+[12.094249] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/launch/check_urdf.launch.py\n'}
+[12.096576] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds\n'}
+[12.099711] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds/empty.sdf\n'}
+[12.100609] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/worlds/world.sdf\n'}
+[12.101783] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz\n'}
+[12.104307] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz/rviz.rviz\n'}
+[12.105139] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/rviz/urdf.rviz\n'}
+[12.107008] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf\n'}
+[12.110275] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/mogi_bot.urdf\n'}
+[12.111086] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/materials.xacro\n'}
+[12.111944] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/urdf/mogi_bot.gazebo\n'}
+[12.112752] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes\n'}
+[12.115243] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.STEP\n'}
+[12.117010] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.STL\n'}
+[12.118766] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.SLDPRT\n'}
+[12.120282] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mecanum_wheel_left.STL\n'}
+[12.123063] (-) TimerEvent: {}
+[12.125149] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.blend\n'}
+[12.132024] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.dae\n'}
+[12.134776] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.STEP\n'}
+[12.137667] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.dae\n'}
+[12.138943] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mogi_bot.blend\n'}
+[12.144902] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/mecanum_wheel_right.STL\n'}
+[12.152329] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.STL\n'}
+[12.158851] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/meshes/wheel.SLDPRT\n'}
+[12.166261] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/package_run_dependencies/erc_sor_ros_session1\n'}
+[12.168700] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/parent_prefix_path/erc_sor_ros_session1\n'}
+[12.172640] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/ament_prefix_path.sh\n'}
+[12.173517] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/ament_prefix_path.dsv\n'}
+[12.174680] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/path.sh\n'}
+[12.175437] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/environment/path.dsv\n'}
+[12.176436] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.bash\n'}
+[12.178561] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.sh\n'}
+[12.179568] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.zsh\n'}
+[12.181831] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/local_setup.dsv\n'}
+[12.183571] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/package.dsv\n'}
+[12.186490] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/ament_index/resource_index/packages/erc_sor_ros_session1\n'}
+[12.190049] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/cmake/erc_sor_ros_session1Config.cmake\n'}
+[12.190880] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/cmake/erc_sor_ros_session1Config-version.cmake\n'}
+[12.191785] (erc_sor_ros_session1) StdoutLine: {'line': b'-- Installing: /home/mrey49/sor_ws/src/sor-ros-session1/install/erc_sor_ros_session1/share/erc_sor_ros_session1/package.xml\n'}
+[12.199240] (erc_sor_ros_session1) CommandEnded: {'returncode': 0}
+[12.224069] (-) TimerEvent: {}
+[12.303063] (erc_sor_ros_session1) JobEnded: {'identifier': 'erc_sor_ros_session1', 'rc': 0}
+[12.308299] (-) EventReactorShutdown: {}
