@@ -1,0 +1,10 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+launch.log
+final_changes.patch
+*_backup.py
